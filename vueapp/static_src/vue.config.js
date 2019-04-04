@@ -3,5 +3,6 @@ module.exports = {
     process.env.NODE_ENV === "development"
       ? "http://localhost:8080"
       : "/static/vueapp/dist/",
-  outputDir: "../../static/vueapp/dist"
+  outputDir: "../../static/vueapp/dist",
+  runtimeCompiler: true
 };
